@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word/Letter Count </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Word/Letter Counter</h1>
+            <input type="text" id="input" placeholder="Add your text">
+            <div id="counts">
+
+                <span id="wordDisplay">Word Count: 0</span>
+                <span id="letterDisplay">Letter Count: 0</span>
+            </div>
+            <button  onclick="count('word')">Word Count</button>
+            <button  onclick="count('letter')">Letter Count</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

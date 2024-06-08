@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: url(./Assets/bg.avif);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+
+}
+.section{
+    width: 100%;
+    max-width: 500px;
+    background-color: transparent;
+    padding: 40px 30px 70px;
+    margin:100px auto 20px;
+}
+.section h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(253, 253, 253);
+    padding-bottom: 20px;
+
+}
+.section input{
+    border: none;
+    outline: none;
+    border-radius: 12px;  
+    padding: 20px; 
+    width: 100%;
+    background-color: rgb(235, 228, 228);
+    margin-bottom: 15px;
+}
+.section button{
+    margin:10px 10px; 
+    padding: 8px 20px; 
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(123, 131, 139); 
+    color: white; 
+    cursor: pointer;  
+    transition: background-color 0.3s ease; 
+}
+.section button:hover {
+    background-color: rgb(19, 20, 22);
+}
+.section div span{
+    color:white;
+    margin: 20px;
+    display: none;
+}
